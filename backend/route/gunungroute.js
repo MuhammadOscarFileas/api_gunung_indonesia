@@ -8,6 +8,6 @@ router.post("/create", addGunung);
 router.get("/", getAllGunung);
 router.put("/edit/:id", editGunung);
 router.delete("/delete/:id", deleteGunung);
-router.get("/details", getGunungDetail);
+router.get("/details/:id", getGunungDetail);
 
 export default router;
