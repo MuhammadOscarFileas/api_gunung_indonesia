@@ -12,6 +12,6 @@ router.post("/create", createRegistrasi);
 router.get("/history/:userId", getHistory);
 
 // Detail history registrasi berdasarkan ID registrasi
-router.get("/history/:id", getHistoryDetail);
+router.get("/historydetail/:id", getHistoryDetail);
 
 export default router;
