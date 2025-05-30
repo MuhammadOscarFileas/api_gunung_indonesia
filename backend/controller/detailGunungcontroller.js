@@ -1,6 +1,6 @@
 // controllers/detailGunungController.js
-import { Gunung } from "../models/gunungmodel.js";
-import { Basecamp } from "../models/basecampmodel.js";
+import { Gunung } from "../model/gunungmodel.js";
+import { Basecamp } from "../model/basecampmodel.js";
 
 export const getGunungDetail = async (req, res) => {
     const { id } = req.params;  // ID gunung yang dipilih
