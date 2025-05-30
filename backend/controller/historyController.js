@@ -1,18 +1,22 @@
-// controllers/historyController.js
-import { RegistrasiPendakian} from "../model/registrasimodel.js";
-import { Gunung } from "../model/gunungmodel.js";
-import { Basecamp } from "../model/basecampmodel.js";
-
+import { RegistrasiPendakian, Basecamp, Gunung } from "../model/index.js";
 
 export const getHistory = async (req, res) => {
-  const userId = req.user.id; // Dari middleware auth
+  const userId = req.user.id; // Pastikan middleware auth mengisi req.user
 
   try {
     const history = await RegistrasiPendakian.findAll({
       where: { user_id: userId },
       include: [
-        { model: Gunung, attributes: ["name"] },
-        { model: Basecamp, attributes: ["name"] }
+        {
+          model: Basecamp,
+          attributes: ["id", "name", "elevation"],
+          include: [
+            {
+              model: Gunung,
+              attributes: ["id", "name"]
+            }
+          ]
+        }
       ],
       order: [["registrasi_date", "DESC"]]
     });

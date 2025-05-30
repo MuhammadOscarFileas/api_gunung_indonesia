@@ -22,7 +22,7 @@ const Favorit = db.define(
             allowNull: false
         },
         created_at: {
-            type: DataTypes.TIMESTAMP,
+            type: DataTypes.DATE,
             defaultValue: Sequelize.literal('CURRENT_TIMESTAMP')
         }
     },
