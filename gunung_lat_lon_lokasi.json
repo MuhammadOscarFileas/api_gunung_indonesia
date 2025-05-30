@@ -1,0 +1,1478 @@
+{
+  "leuser": {
+    "latitude": 3.7414545,
+    "longitude": 97.1551334,
+    "state": "Aceh",
+    "county": "Gayo Lues"
+  },
+  "batur": {
+    "latitude": -8.2394154,
+    "longitude": 115.3779603,
+    "state": "Bali",
+    "county": "Bangli"
+  },
+  "kerinci": {
+    "latitude": -1.6971814,
+    "longitude": 101.2646538,
+    "state": "Jambi",
+    "county": "Kerinci"
+  },
+  "bongkok": {
+    "latitude": -8.8485,
+    "longitude": 116.3104,
+    "state": "Nusa Tenggara Barat",
+    "county": "Lombok Tengah"
+  },
+  "ciremai": {
+    "latitude": -6.8800193,
+    "longitude": 108.4104831,
+    "state": "Jawa Barat",
+    "county": "Kuningan"
+  },
+  "kerenceng": {
+    "latitude": -6.9340605,
+    "longitude": 107.8819011,
+    "state": "Jawa Barat",
+    "county": "Sumedang"
+  },
+  "burangrang": {
+    "latitude": -6.7740399,
+    "longitude": 107.5556983,
+    "state": "Jawa Barat",
+    "county": "Purwakarta"
+  },
+  "patuha": {
+    "latitude": -7.1610219,
+    "longitude": 107.4000215,
+    "state": "Jawa Barat",
+    "county": "Kabupaten Bandung"
+  },
+  "pangrango": {
+    "latitude": -6.7698136,
+    "longitude": 106.9640294,
+    "state": "Jawa Barat",
+    "county": "Kab Sukabumi"
+  },
+  "guntur": {
+    "latitude": -7.264444,
+    "longitude": 110.115,
+    "state": "Jawa Tengah",
+    "county": "Temanggung"
+  },
+  "gede": {
+    "latitude": -6.7878411,
+    "longitude": 106.9817166,
+    "state": "Jawa Barat",
+    "county": "Cianjur"
+  },
+  "andong": {
+    "latitude": -8.2069,
+    "longitude": 113.9574,
+    "state": "Jawa Timur",
+    "county": null
+  },
+  "rogojembangan": {
+    "latitude": -7.176389,
+    "longitude": 109.712778,
+    "state": "Jawa Tengah",
+    "county": "Pekalongan"
+  },
+  "slamet": {
+    "latitude": -7.2414693,
+    "longitude": 109.2149699,
+    "state": "Jawa Tengah",
+    "county": "Pemalang"
+  },
+  "lawu": {
+    "latitude": -7.627382,
+    "longitude": 111.1943158,
+    "state": "Jawa Tengah",
+    "county": "Karanganyar"
+  },
+  "bismo": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "kembang": {
+    "latitude": -4.3162945,
+    "longitude": 102.8283406,
+    "state": "Bengkulu",
+    "county": "Seluma"
+  },
+  "merapi": {
+    "latitude": -7.5412887,
+    "longitude": 110.4462006,
+    "state": "Daerah Istimewa Yogyakarta",
+    "county": "Sleman"
+  },
+  "sindoro": {
+    "latitude": -7.3011387,
+    "longitude": 109.9966992,
+    "state": "Jawa Tengah",
+    "county": "Wonosobo"
+  },
+  "sumbing": {
+    "latitude": -7.3818933,
+    "longitude": 110.0758185,
+    "state": "Jawa Tengah",
+    "county": "Temanggung"
+  },
+  "ungaran": {
+    "latitude": -7.1856195,
+    "longitude": 110.3470896,
+    "state": "Jawa Tengah",
+    "county": "Kendal"
+  },
+  "prau": {
+    "latitude": -8.209167,
+    "longitude": 112.668611,
+    "state": "Jawa Timur",
+    "county": "Kabupaten Malang"
+  },
+  "merbabu": {
+    "latitude": -7.4524377,
+    "longitude": 110.4408198,
+    "state": "Jawa Tengah",
+    "county": "Boyolali"
+  },
+  "semeru": {
+    "latitude": -8.1078426,
+    "longitude": 112.92248,
+    "state": "Jawa Timur",
+    "county": null
+  },
+  "saeng": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "raung": {
+    "latitude": -8.119636,
+    "longitude": 114.055025,
+    "state": "Jawa Timur",
+    "county": "Bondowoso"
+  },
+  "penanggungan": {
+    "latitude": -7.6156599,
+    "longitude": 112.6200569,
+    "state": "Jawa Timur",
+    "county": "Mojokerto"
+  },
+  "kelud": {
+    "latitude": -7.9389217,
+    "longitude": 112.3052492,
+    "state": "Jawa Timur",
+    "county": "Blitar"
+  },
+  "arjuno": {
+    "latitude": -8.2219,
+    "longitude": 112.7795,
+    "state": "Jawa Timur",
+    "county": "Kabupaten Malang"
+  },
+  "argopuro": {
+    "latitude": -7.9644018,
+    "longitude": 113.5663316,
+    "state": "Jawa Timur",
+    "county": "Probolinggo"
+  },
+  "bukit raya": {
+    "latitude": -0.6046659,
+    "longitude": 114.5267844,
+    "state": "Kalimantan Tengah",
+    "county": "Murung Raya"
+  },
+  "tanggamus": {
+    "latitude": -5.416667,
+    "longitude": 104.7,
+    "state": "Lampung",
+    "county": "Tanggamus"
+  },
+  "gamalama": {
+    "latitude": 0.8098795,
+    "longitude": 127.3323425,
+    "state": "Maluku Utara",
+    "county": null
+  },
+  "rinjani": {
+    "latitude": -8.4117272,
+    "longitude": 116.4581059,
+    "state": "Nusa Tenggara Barat",
+    "county": null
+  },
+  "bawakaraeng": {
+    "latitude": -4.5352463,
+    "longitude": 120.3231088,
+    "state": "Sulawesi Selatan",
+    "county": null
+  },
+  "bulu baria": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "latimojong": {
+    "latitude": -5.140647,
+    "longitude": 119.4208405,
+    "state": "Sulawesi Selatan",
+    "county": null
+  },
+  "lompobattang": {
+    "latitude": -3.5611708,
+    "longitude": 119.7801217,
+    "state": "Sulawesi Selatan",
+    "county": null
+  },
+  "talang": {
+    "latitude": -0.9781239,
+    "longitude": 100.6820609,
+    "state": "Sumatera Barat",
+    "county": "Solok"
+  },
+  "dempo": {
+    "latitude": -4.0155065,
+    "longitude": 103.1279874,
+    "state": "Sumatera Selatan",
+    "county": "Tanjung Sakti Pumi"
+  },
+  "sinabung": {
+    "latitude": 3.1709534,
+    "longitude": 98.3920481,
+    "state": "Sumatera Utara",
+    "county": "Karo"
+  },
+  "sibuatan": {
+    "latitude": 2.9252476,
+    "longitude": 98.4038943,
+    "state": "Sumatera Utara",
+    "county": "Karo"
+  },
+  "Puncak Jaya Wijaya": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Kerinci": {
+    "latitude": -1.6971814,
+    "longitude": 101.2646538,
+    "state": "Jambi",
+    "county": "Kerinci"
+  },
+  "Rinjani": {
+    "latitude": -8.4117272,
+    "longitude": 116.4581059,
+    "state": "Nusa Tenggara Barat",
+    "county": null
+  },
+  "Semeru": {
+    "latitude": -8.1078426,
+    "longitude": 112.92248,
+    "state": "Jawa Timur",
+    "county": null
+  },
+  "Latimojong": {
+    "latitude": -5.140647,
+    "longitude": 119.4208405,
+    "state": "Sulawesi Selatan",
+    "county": null
+  },
+  "Slamet": {
+    "latitude": -7.2414693,
+    "longitude": 109.2149699,
+    "state": "Jawa Tengah",
+    "county": "Pemalang"
+  },
+  "Sumbing": {
+    "latitude": -7.3818933,
+    "longitude": 110.0758185,
+    "state": "Jawa Tengah",
+    "county": "Temanggung"
+  },
+  "Raung": {
+    "latitude": -8.119636,
+    "longitude": 114.055025,
+    "state": "Jawa Timur",
+    "county": "Bondowoso"
+  },
+  "Arjuno": {
+    "latitude": -8.2219,
+    "longitude": 112.7795,
+    "state": "Jawa Timur",
+    "county": "Kabupaten Malang"
+  },
+  "Lawu": {
+    "latitude": -7.627382,
+    "longitude": 111.1943158,
+    "state": "Jawa Tengah",
+    "county": "Karanganyar"
+  },
+  "Dempo": {
+    "latitude": -4.0155065,
+    "longitude": 103.1279874,
+    "state": "Sumatera Selatan",
+    "county": "Tanjung Sakti Pumi"
+  },
+  "Welirang": {
+    "latitude": -7.7326,
+    "longitude": 112.5747,
+    "state": "Jawa Timur",
+    "county": "Mojokerto"
+  },
+  "Sindoro": {
+    "latitude": -7.3011387,
+    "longitude": 109.9966992,
+    "state": "Jawa Tengah",
+    "county": "Wonosobo"
+  },
+  "Merbabu": {
+    "latitude": -7.4524377,
+    "longitude": 110.4408198,
+    "state": "Jawa Tengah",
+    "county": "Boyolali"
+  },
+  "Agung": {
+    "latitude": -8.3428923,
+    "longitude": 115.5072076,
+    "state": "Bali",
+    "county": "Karangasem"
+  },
+  "Leuser": {
+    "latitude": 3.7414545,
+    "longitude": 97.1551334,
+    "state": "Aceh",
+    "county": "Gayo Lues"
+  },
+  "Argopuro": {
+    "latitude": -7.9644018,
+    "longitude": 113.5663316,
+    "state": "Jawa Timur",
+    "county": "Probolinggo"
+  },
+  "Ciremai": {
+    "latitude": -6.8800193,
+    "longitude": 108.4104831,
+    "state": "Jawa Barat",
+    "county": "Kuningan"
+  },
+  "Binaiya": {
+    "latitude": -3.1733546,
+    "longitude": 129.4552073,
+    "state": "Maluku",
+    "county": "Maluku Tengah"
+  },
+  "Pangrango": {
+    "latitude": -6.7698136,
+    "longitude": 106.9640294,
+    "state": "Jawa Barat",
+    "county": "Kab Sukabumi"
+  },
+  "Merapi": {
+    "latitude": -7.5412887,
+    "longitude": 110.4462006,
+    "state": "Daerah Istimewa Yogyakarta",
+    "county": "Sleman"
+  },
+  "Gede": {
+    "latitude": -6.7878411,
+    "longitude": 106.9817166,
+    "state": "Jawa Barat",
+    "county": "Cianjur"
+  },
+  "Talakmau": {
+    "latitude": 0.079198,
+    "longitude": 99.9832475,
+    "state": "Sumatera Barat",
+    "county": "Pasaman Barat"
+  },
+  "Puyul Sojol": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Marapi": {
+    "latitude": -0.3911126,
+    "longitude": 100.4571432,
+    "state": "Sumatera Barat",
+    "county": "Agam"
+  },
+  "Geureudong": {
+    "latitude": 4.8105,
+    "longitude": 96.8169,
+    "state": "Aceh",
+    "county": "Bener Meriah"
+  },
+  "Singgalang": {
+    "latitude": -0.3914632,
+    "longitude": 100.3314846,
+    "state": "Sumatera Barat",
+    "county": "Agam"
+  },
+  "Lompobattang": {
+    "latitude": -3.5611708,
+    "longitude": 119.7801217,
+    "state": "Sulawesi Selatan",
+    "county": null
+  },
+  "Katopasa": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Patah": {
+    "latitude": -4.2572731,
+    "longitude": 103.3058845,
+    "state": "Sumatera Selatan",
+    "county": null
+  },
+  "Bawakaraeng": {
+    "latitude": -4.5352463,
+    "longitude": 120.3231088,
+    "state": "Sulawesi Selatan",
+    "county": null
+  },
+  "Cikuray": {
+    "latitude": -7.322513,
+    "longitude": 107.8598651,
+    "state": "Jawa Barat",
+    "county": "Garut"
+  },
+  "Peuet Sagoe": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Ijen": {
+    "latitude": -8.0579332,
+    "longitude": 114.2430975,
+    "state": "Jawa Timur",
+    "county": "Banyuwangi"
+  },
+  "Bulu Baria": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Tambora": {
+    "latitude": -8.2466913,
+    "longitude": 117.9584724,
+    "state": "Nusa Tenggara Barat",
+    "county": null
+  },
+  "Papandayan": {
+    "latitude": -6.3264787,
+    "longitude": 108.3338984,
+    "state": "Jawa Barat",
+    "county": "Indramayu"
+  },
+  "Kawi-Butak": {
+    "latitude": -7.9761206,
+    "longitude": 112.4770737,
+    "state": "Jawa Timur",
+    "county": "Kabupaten Malang"
+  },
+  "Mekongga": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Kendang": {
+    "latitude": -7.2452629,
+    "longitude": 107.7085691,
+    "state": "Jawa Barat",
+    "county": "Garut"
+  },
+  "Ranti": {
+    "latitude": -8.0995,
+    "longitude": 114.2141,
+    "state": "Jawa Timur",
+    "county": "Banyuwangi"
+  },
+  "Talang": {
+    "latitude": -0.9781239,
+    "longitude": 100.6820609,
+    "state": "Sumatera Barat",
+    "county": "Solok"
+  },
+  "Prau": {
+    "latitude": -8.209167,
+    "longitude": 112.668611,
+    "state": "Jawa Timur",
+    "county": "Kabupaten Malang"
+  },
+  "Dieng": {
+    "latitude": -8.5797021,
+    "longitude": 116.090397,
+    "state": "Nusa Tenggara Barat",
+    "county": "Kec. Ampenan"
+  },
+  "Wilis": {
+    "latitude": -7.820585,
+    "longitude": 111.7571632,
+    "state": "Jawa Timur",
+    "county": "Ponorogo"
+  },
+  "Torenali": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Bukit Daun": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Bulu Torompupu": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Sinabung": {
+    "latitude": 3.1709534,
+    "longitude": 98.3920481,
+    "state": "Sumatera Utara",
+    "county": "Karo"
+  },
+  "Sibuatan": {
+    "latitude": 2.9252476,
+    "longitude": 98.4038943,
+    "state": "Sumatera Utara",
+    "county": "Karo"
+  },
+  "Tandikat": {
+    "latitude": -0.4306879,
+    "longitude": 100.3178723,
+    "state": "Sumatera Barat",
+    "county": "Agam"
+  },
+  "Patuha": {
+    "latitude": -7.1610219,
+    "longitude": 107.4000215,
+    "state": "Jawa Barat",
+    "county": "Kabupaten Bandung"
+  },
+  "Tambusisi": {
+    "latitude": -1.633333,
+    "longitude": 121.383333,
+    "state": "Sulawesi Tengah",
+    "county": "Morowali Utara"
+  },
+  "Pakuwaja": {
+    "latitude": -7.2290872,
+    "longitude": 109.9225151,
+    "state": "Jawa Tengah",
+    "county": "Wonosobo"
+  },
+  "Rore Kautimbu": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Bismo": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Nokilalaki": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Malabar": {
+    "latitude": -7.1265307,
+    "longitude": 107.6358625,
+    "state": "Jawa Barat",
+    "county": "Kabupaten Bandung"
+  },
+  "Kembang": {
+    "latitude": -4.3162945,
+    "longitude": 102.8283406,
+    "state": "Bengkulu",
+    "county": "Seluma"
+  },
+  "Bromo": {
+    "latitude": -7.9420691,
+    "longitude": 112.9529769,
+    "state": "Jawa Timur",
+    "county": "Pasuruan"
+  },
+  "Bukit Raya": {
+    "latitude": -0.6046659,
+    "longitude": 114.5267844,
+    "state": "Kalimantan Tengah",
+    "county": "Murung Raya"
+  },
+  "Batukaru": {
+    "latitude": -8.3349079,
+    "longitude": 115.0884445,
+    "state": "Bali",
+    "county": "Tabanan"
+  },
+  "Bratan": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Sago": {
+    "latitude": -0.343452,
+    "longitude": 100.673903,
+    "state": "Sumatera Barat",
+    "county": "Tanah Datar"
+  },
+  "Guntur": {
+    "latitude": -7.264444,
+    "longitude": 110.115,
+    "state": "Jawa Tengah",
+    "county": "Temanggung"
+  },
+  "Inierie": {
+    "latitude": -8.8781,
+    "longitude": 120.9543,
+    "state": "Nusa Tenggara Timur",
+    "county": "Ngada"
+  },
+  "Sibayak": {
+    "latitude": 3.2393517,
+    "longitude": 98.5047584,
+    "state": "Sumatera Utara",
+    "county": "Karo"
+  },
+  "Salak": {
+    "latitude": -6.7136069,
+    "longitude": 106.7385402,
+    "state": "Jawa Barat",
+    "county": "Kab Bogor"
+  },
+  "Talagabodas": {
+    "latitude": -7.21081,
+    "longitude": 108.064936,
+    "state": "Jawa Barat",
+    "county": "Garut"
+  },
+  "Rogojembangan": {
+    "latitude": -7.176389,
+    "longitude": 109.712778,
+    "state": "Jawa Tengah",
+    "county": "Pekalongan"
+  },
+  "Galunggung": {
+    "latitude": -7.2561523,
+    "longitude": 108.0760925,
+    "state": "Jawa Barat",
+    "county": "Tasikmalaya"
+  },
+  "Toba": {
+    "latitude": -0.183333,
+    "longitude": 110.1,
+    "state": "Kalimantan Barat",
+    "county": "Sanggau"
+  },
+  "Kunyit": {
+    "latitude": -2.2759189,
+    "longitude": 101.4895553,
+    "state": "Jambi",
+    "county": "Kerinci"
+  },
+  "Abang": {
+    "latitude": -8.2802,
+    "longitude": 115.4295,
+    "state": "Bali",
+    "county": "Bangli"
+  },
+  "Sorikmarapi": {
+    "latitude": 0.6836334,
+    "longitude": 99.5428117,
+    "state": "Sumatera Utara",
+    "county": "Mandailing Natal"
+  },
+  "Windu": {
+    "latitude": -6.893611,
+    "longitude": 108.279444,
+    "state": "Jawa Barat",
+    "county": "Majalengka"
+  },
+  "Sagara": {
+    "latitude": -7.2216524,
+    "longitude": 108.0580001,
+    "state": "Jawa Barat",
+    "county": "Garut"
+  },
+  "Wayang": {
+    "latitude": -7.583333,
+    "longitude": 109.9625,
+    "state": "Jawa Tengah",
+    "county": null
+  },
+  "Ebulobo": {
+    "latitude": -8.8172,
+    "longitude": 121.1904,
+    "state": "Nusa Tenggara Timur",
+    "county": "Nagekeo"
+  },
+  "Ranaka": {
+    "latitude": -8.6133997,
+    "longitude": 120.5204922,
+    "state": "Nusa Tenggara Timur",
+    "county": "Manggarai"
+  },
+  "Tanggamus": {
+    "latitude": -5.416667,
+    "longitude": 104.7,
+    "state": "Lampung",
+    "county": "Tanggamus"
+  },
+  "Catur": {
+    "latitude": -8.2552,
+    "longitude": 115.1901,
+    "state": "Bali",
+    "county": "Badung"
+  },
+  "Tangkuban Perahu": {
+    "latitude": -8.6724148,
+    "longitude": 115.1702225,
+    "state": "Bali",
+    "county": "Badung"
+  },
+  "Sanghyang": {
+    "latitude": -8.3074726,
+    "longitude": 115.1008654,
+    "state": "Bali",
+    "county": "Buleleng"
+  },
+  "Pohen": {
+    "latitude": -8.2971,
+    "longitude": 115.138,
+    "state": "Bali",
+    "county": "Tabanan"
+  },
+  "Bukit Lumut Balai": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Ungaran": {
+    "latitude": -7.1856195,
+    "longitude": 110.3470896,
+    "state": "Jawa Tengah",
+    "county": "Kendal"
+  },
+  "Burangrang": {
+    "latitude": -6.7740399,
+    "longitude": 107.5556983,
+    "state": "Jawa Barat",
+    "county": "Purwakarta"
+  },
+  "Gawalise": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Hutapanjang": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Klabat": {
+    "latitude": 1.4530396,
+    "longitude": 125.0312101,
+    "state": "Sulawesi Utara",
+    "county": "Minahasa Utara"
+  },
+  "Belirang-Beriti": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Kaba": {
+    "latitude": 4.133333,
+    "longitude": 116.183333,
+    "state": "Kalimantan Utara",
+    "county": "Nunukan"
+  },
+  "Sangeang Api": {
+    "latitude": -8.1968568,
+    "longitude": 119.0693179,
+    "state": "Nusa Tenggara Barat",
+    "county": null
+  },
+  "Halimun": {
+    "latitude": -6.7108302,
+    "longitude": 106.4516375,
+    "state": "Jawa Barat",
+    "county": "Kab Bogor"
+  },
+  "Tapak": {
+    "latitude": -8.2705078,
+    "longitude": 115.1385786,
+    "state": "Bali",
+    "county": "Buleleng"
+  },
+  "Halau-Halau": {
+    "latitude": -2.7106408,
+    "longitude": 115.6259293,
+    "state": "Kalimantan Selatan",
+    "county": "Hulu Sungai Tengah"
+  },
+  "Telomoyo": {
+    "latitude": -7.3612707,
+    "longitude": 110.3998253,
+    "state": "Jawa Tengah",
+    "county": "Magelang"
+  },
+  "Ranau": {
+    "latitude": -5.3954331,
+    "longitude": 105.2620377,
+    "state": "Lampung",
+    "county": null
+  },
+  "Lesung": {
+    "latitude": -8.2801208,
+    "longitude": 115.1061935,
+    "state": "Bali",
+    "county": "Buleleng"
+  },
+  "Lubukraya": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Adeng": {
+    "latitude": -8.3184,
+    "longitude": 115.1399,
+    "state": "Bali",
+    "county": "Tabanan"
+  },
+  "Sibualbuali": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Manglayang": {
+    "latitude": -6.885476,
+    "longitude": 107.7427473,
+    "state": "Jawa Barat",
+    "county": "Kabupaten Bandung"
+  },
+  "Seulawah Agam": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Ambang": {
+    "latitude": 0.755617,
+    "longitude": 124.4130796,
+    "state": "Sulawesi Utara",
+    "county": "Bolaang Mongondow Timur"
+  },
+  "Sidole": {
+    "latitude": -0.8990968,
+    "longitude": 119.8838119,
+    "state": "Sulawesi Tengah",
+    "county": null
+  },
+  "Karangetang": {
+    "latitude": 2.7775257,
+    "longitude": 125.4060634,
+    "state": "Sulawesi Utara",
+    "county": "Kepulauan Siau Tagulandang Biaro"
+  },
+  "Soputan": {
+    "latitude": 1.121651,
+    "longitude": 124.741586,
+    "state": "Sulawesi Utara",
+    "county": null
+  },
+  "Karang": {
+    "latitude": -6.2731994,
+    "longitude": 106.0468065,
+    "state": "Banten",
+    "county": "Pandeglang"
+  },
+  "Kerenceng": {
+    "latitude": -6.9340605,
+    "longitude": 107.8819011,
+    "state": "Jawa Barat",
+    "county": "Sumedang"
+  },
+  "Kelud": {
+    "latitude": -7.9389217,
+    "longitude": 112.3052492,
+    "state": "Jawa Timur",
+    "county": "Blitar"
+  },
+  "Kamojang": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Tidore": {
+    "latitude": 0.5753212,
+    "longitude": 127.3977684,
+    "state": "Maluku Utara",
+    "county": null
+  },
+  "Andong": {
+    "latitude": -8.2069,
+    "longitude": 113.9574,
+    "state": "Jawa Timur",
+    "county": null
+  },
+  "Sekincau Belirang": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Batur": {
+    "latitude": -8.2394154,
+    "longitude": 115.3779603,
+    "state": "Bali",
+    "county": "Bangli"
+  },
+  "Gamalama": {
+    "latitude": 0.8098795,
+    "longitude": 127.3323425,
+    "state": "Maluku Utara",
+    "county": null
+  },
+  "Egon": {
+    "latitude": -8.6780954,
+    "longitude": 122.4541256,
+    "state": "Nusa Tenggara Timur",
+    "county": "Sikka"
+  },
+  "Lewotobi Perempuan": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Perbakti": {
+    "latitude": -6.7430442,
+    "longitude": 106.6975485,
+    "state": "Jawa Barat",
+    "county": "Kab Sukabumi"
+  },
+  "Tampomas": {
+    "latitude": -7.525,
+    "longitude": 109.596111,
+    "state": "Jawa Tengah",
+    "county": "Kebumen"
+  },
+  "Poco Leok": {
+    "latitude": -8.6694787,
+    "longitude": 120.4590573,
+    "state": "Nusa Tenggara Timur",
+    "county": "Manggarai"
+  },
+  "Manimporok": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Iliboleng": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Penanggungan": {
+    "latitude": -7.6156599,
+    "longitude": 112.6200569,
+    "state": "Jawa Timur",
+    "county": "Mojokerto"
+  },
+  "Lamongan": {
+    "latitude": -7.2563746,
+    "longitude": 112.2227543,
+    "state": "Jawa Timur",
+    "county": "Lamongan"
+  },
+  "Kelimutu": {
+    "latitude": -8.7651702,
+    "longitude": 121.8133427,
+    "state": "Nusa Tenggara Timur",
+    "county": "Ende"
+  },
+  "Gamkonora": {
+    "latitude": 1.3790723,
+    "longitude": 127.5322812,
+    "state": "Maluku Utara",
+    "county": "Halmahera Barat"
+  },
+  "Muria": {
+    "latitude": -6.6162687,
+    "longitude": 110.8902495,
+    "state": "Jawa Tengah",
+    "county": null
+  },
+  "Magaringsai": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Saeng": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Lewotobi Laki-laki": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Lokon": {
+    "latitude": 1.3641984,
+    "longitude": 124.7992274,
+    "state": "Sulawesi Utara",
+    "county": null
+  },
+  "Lokon-Empung": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Inielika": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Sempu": {
+    "latitude": 1.1337266,
+    "longitude": 124.7535103,
+    "state": "Sulawesi Utara",
+    "county": null
+  },
+  "Kiaraberes-Gagak": {
+    "latitude": -6.7293192,
+    "longitude": 106.6504902,
+    "state": "Jawa Barat",
+    "county": "Kab Bogor"
+  },
+  "Imun": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Sukaria": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Kahung": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Ili Lewotolok": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Lewotolo": {
+    "latitude": -8.2727646,
+    "longitude": 123.5067385,
+    "state": "Nusa Tenggara Timur",
+    "county": "Lembata"
+  },
+  "Punikan": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Merbuk": {
+    "latitude": -8.6611479,
+    "longitude": 115.1957464,
+    "state": "Bali",
+    "county": null
+  },
+  "Kie Besi": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Bulu Saraung": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Pulosari": {
+    "latitude": -7.318056,
+    "longitude": 109.572222,
+    "state": "Jawa Tengah",
+    "county": "Banjarnegara"
+  },
+  "Dukono": {
+    "latitude": 1.698949,
+    "longitude": 127.8791239,
+    "state": "Maluku Utara",
+    "county": "Halmahera Utara"
+  },
+  "Hauk": {
+    "latitude": -2.4944165,
+    "longitude": 115.6775026,
+    "state": "Kalimantan Selatan",
+    "county": "Balangan"
+  },
+  "Ibu": {
+    "latitude": 1.4907438,
+    "longitude": 127.6305401,
+    "state": "Maluku Utara",
+    "county": "Halmahera Barat"
+  },
+  "Mahawu": {
+    "latitude": 1.3531645,
+    "longitude": 124.8628914,
+    "state": "Sulawesi Utara",
+    "county": null
+  },
+  "Awu": {
+    "latitude": 3.6881446,
+    "longitude": 125.4468545,
+    "state": "Sulawesi Utara",
+    "county": "Kepulauan Sangihe"
+  },
+  "Sanggabuana": {
+    "latitude": -6.5908265,
+    "longitude": 107.2207665,
+    "state": "Jawa Barat",
+    "county": "Purwakarta"
+  },
+  "Rorokoan": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Rajabasa": {
+    "latitude": -5.7815291,
+    "longitude": 105.6273999,
+    "state": "Lampung",
+    "county": "Lampung Selatan"
+  },
+  "Baluran": {
+    "latitude": -7.8456729,
+    "longitude": 114.3629116,
+    "state": "Jawa Timur",
+    "county": null
+  },
+  "Tampusu": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Tondano": {
+    "latitude": 1.2955906,
+    "longitude": 124.9058945,
+    "state": "Sulawesi Utara",
+    "county": null
+  },
+  "Aseupan": {
+    "latitude": -6.561667,
+    "longitude": 107.196389,
+    "state": "Jawa Barat",
+    "county": null
+  },
+  "Karaha": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Tilu": {
+    "latitude": -7.533333,
+    "longitude": 107.933333,
+    "state": "Jawa Barat",
+    "county": "Garut"
+  },
+  "Tongkoko": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Jailolo": {
+    "latitude": 1.0794305,
+    "longitude": 127.4384966,
+    "state": "Maluku Utara",
+    "county": "Halmahera Barat"
+  },
+  "Leroboleng": {
+    "latitude": -8.3513763,
+    "longitude": 122.8502397,
+    "state": "Nusa Tenggara Timur",
+    "county": "Flores Timur"
+  },
+  "Bulu Monrolo": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Helatoba-Tarutung": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Ilimuda": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Hulubelu": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Tobaru": {
+    "latitude": 1.6341691,
+    "longitude": 127.6707162,
+    "state": "Maluku Utara",
+    "county": "Halmahera Barat"
+  },
+  "Amasing": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Ililabalekan": {
+    "latitude": -8.5445254,
+    "longitude": 123.3842986,
+    "state": "Nusa Tenggara Timur",
+    "county": "Lembata"
+  },
+  "Iliwerung": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Suoh": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Todoko-Ranu": {
+    "latitude": 1.2240852,
+    "longitude": 127.4564388,
+    "state": "Maluku Utara",
+    "county": "Halmahera Barat"
+  },
+  "Bongkok": {
+    "latitude": -8.8485,
+    "longitude": 116.3104,
+    "state": "Nusa Tenggara Barat",
+    "county": "Lombok Tengah"
+  },
+  "Moti": {
+    "latitude": 0.4585828,
+    "longitude": 127.4080681,
+    "state": "Maluku Utara",
+    "county": null
+  },
+  "Wai Sano": {
+    "latitude": -8.7395548,
+    "longitude": 120.0176826,
+    "state": "Nusa Tenggara Timur",
+    "county": "Manggarai Barat"
+  },
+  "Bibinoi": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Paluweh": {
+    "latitude": -8.3338621,
+    "longitude": 121.7103708,
+    "state": "Nusa Tenggara Timur",
+    "county": "Sikka"
+  },
+  "Wurlali": {
+    "latitude": -7.1218701,
+    "longitude": 128.6735194,
+    "state": "Maluku",
+    "county": "Maluku Barat Daya"
+  },
+  "Sirung": {
+    "latitude": -8.499553,
+    "longitude": 124.1279785,
+    "state": "Nusa Tenggara Timur",
+    "county": "Alor"
+  },
+  "Krakatau": {
+    "latitude": -6.2003169,
+    "longitude": 106.9260149,
+    "state": null,
+    "county": null
+  },
+  "Nila": {
+    "latitude": -6.7408892,
+    "longitude": 129.5136471,
+    "state": "Maluku",
+    "county": "Maluku Tengah"
+  },
+  "Ndete Napu": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Batu Tara": {
+    "latitude": -7.7906463,
+    "longitude": 123.5865811,
+    "state": "Nusa Tenggara Timur",
+    "county": "Lembata"
+  },
+  "Ruang": {
+    "latitude": 2.304852,
+    "longitude": 125.3665476,
+    "state": "Sulawesi Utara",
+    "county": "Kepulauan Siau Tagulandang Biaro"
+  },
+  "Malang": {
+    "latitude": -7.878333,
+    "longitude": 110.42,
+    "state": "Daerah Istimewa Yogyakarta",
+    "county": "Bantul"
+  },
+  "Teon": {
+    "latitude": -6.9700205,
+    "longitude": 129.1450352,
+    "state": "Maluku",
+    "county": "Maluku Tengah"
+  },
+  "Serua": {
+    "latitude": -6.3123344,
+    "longitude": 130.0170294,
+    "state": "Maluku",
+    "county": "Maluku Tengah"
+  },
+  "Banda Api": {
+    "latitude": -4.5225918,
+    "longitude": 129.8798487,
+    "state": "Maluku",
+    "county": "Maluku Tengah"
+  },
+  "Iya": {
+    "latitude": -8.8945945,
+    "longitude": 121.6366073,
+    "state": "Nusa Tenggara Timur",
+    "county": "Ende"
+  },
+  "Hiri": {
+    "latitude": 0.8979228,
+    "longitude": 127.3184691,
+    "state": "Maluku Utara",
+    "county": null
+  },
+  "Weh": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Lurus": {
+    "latitude": -7.7392,
+    "longitude": 113.5804,
+    "state": "Jawa Timur",
+    "county": null
+  },
+  "Colo": {
+    "latitude": -0.1623854,
+    "longitude": 121.6010796,
+    "state": "Sulawesi Tengah",
+    "county": "Tojo Una-Una"
+  },
+  "Tigalalu": {
+    "latitude": 0.0679595,
+    "longitude": 127.4232917,
+    "state": "Maluku Utara",
+    "county": "Halmahera Selatan"
+  },
+  "Eusing": {
+    "latitude": -6.5068644,
+    "longitude": 106.6226431,
+    "state": "Jawa Barat",
+    "county": "Kab Bogor"
+  },
+  "Tarakan": {
+    "latitude": 1.8301688,
+    "longitude": 127.8277639,
+    "state": "Maluku Utara",
+    "county": "Halmahera Utara"
+  },
+  "Mare": {
+    "latitude": 0.5753212,
+    "longitude": 127.3977684,
+    "state": "Maluku Utara",
+    "county": null
+  },
+  "Gunungapi Wetar": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Manuk": {
+    "latitude": 4.3333618,
+    "longitude": 126.8333343,
+    "state": "Sulawesi Utara",
+    "county": null
+  },
+  "Riang Kotang": {
+    "latitude": -8.2829489,
+    "longitude": 122.9116974,
+    "state": "Nusa Tenggara Timur",
+    "county": "Flores Timur"
+  },
+  "Anak Krakatau": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  }
+}

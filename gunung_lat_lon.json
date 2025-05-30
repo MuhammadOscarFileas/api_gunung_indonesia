@@ -1,0 +1,1028 @@
+{
+  "leuser": {
+    "latitude": 3.7414545,
+    "longitude": 97.1551334
+  },
+  "batur": {
+    "latitude": -8.2394154,
+    "longitude": 115.3779603
+  },
+  "kerinci": {
+    "latitude": -1.6971814,
+    "longitude": 101.2646538
+  },
+  "bongkok": {
+    "latitude": -8.8485,
+    "longitude": 116.3104
+  },
+  "ciremai": {
+    "latitude": -6.8800193,
+    "longitude": 108.4104831
+  },
+  "kerenceng": {
+    "latitude": -6.9340605,
+    "longitude": 107.8819011
+  },
+  "burangrang": {
+    "latitude": -6.7740399,
+    "longitude": 107.5556983
+  },
+  "patuha": {
+    "latitude": -7.1610219,
+    "longitude": 107.4000215
+  },
+  "pangrango": {
+    "latitude": -6.7698136,
+    "longitude": 106.9640294
+  },
+  "guntur": {
+    "latitude": -7.264444,
+    "longitude": 110.115
+  },
+  "gede": {
+    "latitude": -6.7878411,
+    "longitude": 106.9817166
+  },
+  "andong": {
+    "latitude": -8.2069,
+    "longitude": 113.9574
+  },
+  "rogojembangan": {
+    "latitude": -7.176389,
+    "longitude": 109.712778
+  },
+  "slamet": {
+    "latitude": -7.2414693,
+    "longitude": 109.2149699
+  },
+  "lawu": {
+    "latitude": -7.627382,
+    "longitude": 111.1943158
+  },
+  "bismo": {
+    "latitude": -7.2463193,
+    "longitude": 109.888286
+  },
+  "kembang": {
+    "latitude": -4.3162945,
+    "longitude": 102.8283406
+  },
+  "merapi": {
+    "latitude": -7.5412887,
+    "longitude": 110.4462006
+  },
+  "sindoro": {
+    "latitude": -7.3011387,
+    "longitude": 109.9966992
+  },
+  "sumbing": {
+    "latitude": -7.3818933,
+    "longitude": 110.0758185
+  },
+  "ungaran": {
+    "latitude": -7.1856195,
+    "longitude": 110.3470896
+  },
+  "prau": {
+    "latitude": -8.209167,
+    "longitude": 112.668611
+  },
+  "merbabu": {
+    "latitude": -7.4524377,
+    "longitude": 110.4408198
+  },
+  "semeru": {
+    "latitude": -8.1078426,
+    "longitude": 112.92248
+  },
+  "saeng": {
+    "latitude": -7.9366932,
+    "longitude": 113.7258325
+  },
+  "raung": {
+    "latitude": -8.119636,
+    "longitude": 114.055025
+  },
+  "penanggungan": {
+    "latitude": -7.6156599,
+    "longitude": 112.6200569
+  },
+  "kelud": {
+    "latitude": -7.9389217,
+    "longitude": 112.3052492
+  },
+  "arjuno": {
+    "latitude": -8.2219,
+    "longitude": 112.7795
+  },
+  "argopuro": {
+    "latitude": -7.9644018,
+    "longitude": 113.5663316
+  },
+  "bukit raya": {
+    "latitude": -0.6046659,
+    "longitude": 114.5267844
+  },
+  "tanggamus": {
+    "latitude": -5.416667,
+    "longitude": 104.7
+  },
+  "gamalama": {
+    "latitude": 0.8098795,
+    "longitude": 127.3323425
+  },
+  "rinjani": {
+    "latitude": -8.4117272,
+    "longitude": 116.4581059
+  },
+  "bawakaraeng": {
+    "latitude": -4.5352463,
+    "longitude": 120.3231088
+  },
+  "bulu baria": {
+    "latitude": -5.3401921,
+    "longitude": 119.9222221
+  },
+  "latimojong": {
+    "latitude": -5.140647,
+    "longitude": 119.4208405
+  },
+  "lompobattang": {
+    "latitude": -3.5611708,
+    "longitude": 119.7801217
+  },
+  "talang": {
+    "latitude": -0.9781239,
+    "longitude": 100.6820609
+  },
+  "dempo": {
+    "latitude": -4.0155065,
+    "longitude": 103.1279874
+  },
+  "sinabung": {
+    "latitude": 3.1709534,
+    "longitude": 98.3920481
+  },
+  "sibuatan": {
+    "latitude": 2.9252476,
+    "longitude": 98.4038943
+  },
+  "Puncak Jaya Wijaya": {
+    "latitude": -4.0812353,
+    "longitude": 137.2897872
+  },
+  "Kerinci": {
+    "latitude": -1.6971814,
+    "longitude": 101.2646538
+  },
+  "Rinjani": {
+    "latitude": -8.4117272,
+    "longitude": 116.4581059
+  },
+  "Semeru": {
+    "latitude": -8.1078426,
+    "longitude": 112.92248
+  },
+  "Latimojong": {
+    "latitude": -5.140647,
+    "longitude": 119.4208405
+  },
+  "Slamet": {
+    "latitude": -7.2414693,
+    "longitude": 109.2149699
+  },
+  "Sumbing": {
+    "latitude": -7.3818933,
+    "longitude": 110.0758185
+  },
+  "Raung": {
+    "latitude": -8.119636,
+    "longitude": 114.055025
+  },
+  "Arjuno": {
+    "latitude": -8.2219,
+    "longitude": 112.7795
+  },
+  "Lawu": {
+    "latitude": -7.627382,
+    "longitude": 111.1943158
+  },
+  "Dempo": {
+    "latitude": -4.0155065,
+    "longitude": 103.1279874
+  },
+  "Welirang": {
+    "latitude": -7.7326,
+    "longitude": 112.5747
+  },
+  "Sindoro": {
+    "latitude": -7.3011387,
+    "longitude": 109.9966992
+  },
+  "Merbabu": {
+    "latitude": -7.4524377,
+    "longitude": 110.4408198
+  },
+  "Agung": {
+    "latitude": -8.3428923,
+    "longitude": 115.5072076
+  },
+  "Leuser": {
+    "latitude": 3.7414545,
+    "longitude": 97.1551334
+  },
+  "Argopuro": {
+    "latitude": -7.9644018,
+    "longitude": 113.5663316
+  },
+  "Ciremai": {
+    "latitude": -6.8800193,
+    "longitude": 108.4104831
+  },
+  "Binaiya": {
+    "latitude": -3.1733546,
+    "longitude": 129.4552073
+  },
+  "Pangrango": {
+    "latitude": -6.7698136,
+    "longitude": 106.9640294
+  },
+  "Merapi": {
+    "latitude": -7.5412887,
+    "longitude": 110.4462006
+  },
+  "Gede": {
+    "latitude": -6.7878411,
+    "longitude": 106.9817166
+  },
+  "Talakmau": {
+    "latitude": 0.079198,
+    "longitude": 99.9832475
+  },
+  "Puyul Sojol": {
+    "latitude": 0.5778862,
+    "longitude": 120.204957
+  },
+  "Marapi": {
+    "latitude": -0.3911126,
+    "longitude": 100.4571432
+  },
+  "Geureudong": {
+    "latitude": 4.8105,
+    "longitude": 96.8169
+  },
+  "Singgalang": {
+    "latitude": -0.3914632,
+    "longitude": 100.3314846
+  },
+  "Lompobattang": {
+    "latitude": -3.5611708,
+    "longitude": 119.7801217
+  },
+  "Katopasa": {
+    "latitude": -1.2400428,
+    "longitude": 121.4259822
+  },
+  "Patah": {
+    "latitude": -4.2572731,
+    "longitude": 103.3058845
+  },
+  "Bawakaraeng": {
+    "latitude": -4.5352463,
+    "longitude": 120.3231088
+  },
+  "Cikuray": {
+    "latitude": -7.322513,
+    "longitude": 107.8598651
+  },
+  "Peuet Sagoe": {
+    "latitude": 4.9153418,
+    "longitude": 96.3280757
+  },
+  "Ijen": {
+    "latitude": -8.0579332,
+    "longitude": 114.2430975
+  },
+  "Bulu Baria": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Tambora": {
+    "latitude": -8.2466913,
+    "longitude": 117.9584724
+  },
+  "Papandayan": {
+    "latitude": -6.3264787,
+    "longitude": 108.3338984
+  },
+  "Kawi-Butak": {
+    "latitude": -7.9761206,
+    "longitude": 112.4770737
+  },
+  "Mekongga": {
+    "latitude": -3.6647,
+    "longitude": 121.2356186
+  },
+  "Kendang": {
+    "latitude": -7.2452629,
+    "longitude": 107.7085691
+  },
+  "Ranti": {
+    "latitude": -8.0995,
+    "longitude": 114.2141
+  },
+  "Talang": {
+    "latitude": -0.9781239,
+    "longitude": 100.6820609
+  },
+  "Prau": {
+    "latitude": -8.209167,
+    "longitude": 112.668611
+  },
+  "Dieng": {
+    "latitude": -8.5797021,
+    "longitude": 116.090397
+  },
+  "Wilis": {
+    "latitude": -7.820585,
+    "longitude": 111.7571632
+  },
+  "Torenali": {
+    "latitude": -1.2696566,
+    "longitude": 120.3039949
+  },
+  "Bukit Daun": {
+    "latitude": -3.3911095,
+    "longitude": 102.3425428
+  },
+  "Bulu Torompupu": {
+    "latitude": -1.4258332,
+    "longitude": 119.8566665
+  },
+  "Sinabung": {
+    "latitude": 3.1709534,
+    "longitude": 98.3920481
+  },
+  "Sibuatan": {
+    "latitude": 2.9252476,
+    "longitude": 98.4038943
+  },
+  "Tandikat": {
+    "latitude": -0.4306879,
+    "longitude": 100.3178723
+  },
+  "Patuha": {
+    "latitude": -7.1610219,
+    "longitude": 107.4000215
+  },
+  "Tambusisi": {
+    "latitude": -1.633333,
+    "longitude": 121.383333
+  },
+  "Pakuwaja": {
+    "latitude": -7.2290872,
+    "longitude": 109.9225151
+  },
+  "Rore Kautimbu": {
+    "latitude": -1.2416881,
+    "longitude": 120.3297221
+  },
+  "Bismo": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Nokilalaki": {
+    "latitude": -1.2546138,
+    "longitude": 120.165919
+  },
+  "Malabar": {
+    "latitude": -7.1265307,
+    "longitude": 107.6358625
+  },
+  "Kembang": {
+    "latitude": -4.3162945,
+    "longitude": 102.8283406
+  },
+  "Bromo": {
+    "latitude": -7.9420691,
+    "longitude": 112.9529769
+  },
+  "Bukit Raya": {
+    "latitude": -0.6046659,
+    "longitude": 114.5267844
+  },
+  "Batukaru": {
+    "latitude": -8.3349079,
+    "longitude": 115.0884445
+  },
+  "Bratan": {
+    "latitude": -8.2836186,
+    "longitude": 115.1372918
+  },
+  "Sago": {
+    "latitude": -0.343452,
+    "longitude": 100.673903
+  },
+  "Guntur": {
+    "latitude": -7.264444,
+    "longitude": 110.115
+  },
+  "Inierie": {
+    "latitude": -8.8781,
+    "longitude": 120.9543
+  },
+  "Sibayak": {
+    "latitude": 3.2393517,
+    "longitude": 98.5047584
+  },
+  "Salak": {
+    "latitude": -6.7136069,
+    "longitude": 106.7385402
+  },
+  "Talagabodas": {
+    "latitude": -7.21081,
+    "longitude": 108.064936
+  },
+  "Rogojembangan": {
+    "latitude": -7.176389,
+    "longitude": 109.712778
+  },
+  "Galunggung": {
+    "latitude": -7.2561523,
+    "longitude": 108.0760925
+  },
+  "Toba": {
+    "latitude": -0.183333,
+    "longitude": 110.1
+  },
+  "Kunyit": {
+    "latitude": -2.2759189,
+    "longitude": 101.4895553
+  },
+  "Abang": {
+    "latitude": -8.2802,
+    "longitude": 115.4295
+  },
+  "Sorikmarapi": {
+    "latitude": 0.6836334,
+    "longitude": 99.5428117
+  },
+  "Windu": {
+    "latitude": -6.893611,
+    "longitude": 108.279444
+  },
+  "Sagara": {
+    "latitude": -7.2216524,
+    "longitude": 108.0580001
+  },
+  "Wayang": {
+    "latitude": -7.583333,
+    "longitude": 109.9625
+  },
+  "Ebulobo": {
+    "latitude": -8.8172,
+    "longitude": 121.1904
+  },
+  "Ranaka": {
+    "latitude": -8.6133997,
+    "longitude": 120.5204922
+  },
+  "Tanggamus": {
+    "latitude": -5.416667,
+    "longitude": 104.7
+  },
+  "Catur": {
+    "latitude": -8.2552,
+    "longitude": 115.1901
+  },
+  "Tangkuban Perahu": {
+    "latitude": -8.6724148,
+    "longitude": 115.1702225
+  },
+  "Sanghyang": {
+    "latitude": -8.3074726,
+    "longitude": 115.1008654
+  },
+  "Pohen": {
+    "latitude": -8.2971,
+    "longitude": 115.138
+  },
+  "Bukit Lumut Balai": {
+    "latitude": -4.2195718,
+    "longitude": 103.6199999
+  },
+  "Ungaran": {
+    "latitude": -7.1856195,
+    "longitude": 110.3470896
+  },
+  "Burangrang": {
+    "latitude": -6.7740399,
+    "longitude": 107.5556983
+  },
+  "Gawalise": {
+    "latitude": -0.8752228,
+    "longitude": 119.7563321
+  },
+  "Hutapanjang": {
+    "latitude": 2.4372383,
+    "longitude": 101.493913
+  },
+  "Klabat": {
+    "latitude": 1.4530396,
+    "longitude": 125.0312101
+  },
+  "Belirang-Beriti": {
+    "latitude": -2.8194426,
+    "longitude": 102.1803003
+  },
+  "Kaba": {
+    "latitude": 4.133333,
+    "longitude": 116.183333
+  },
+  "Sangeang Api": {
+    "latitude": -8.1968568,
+    "longitude": 119.0693179
+  },
+  "Halimun": {
+    "latitude": -6.7108302,
+    "longitude": 106.4516375
+  },
+  "Tapak": {
+    "latitude": -8.2705078,
+    "longitude": 115.1385786
+  },
+  "Halau-Halau": {
+    "latitude": -2.7106408,
+    "longitude": 115.6259293
+  },
+  "Telomoyo": {
+    "latitude": -7.3612707,
+    "longitude": 110.3998253
+  },
+  "Ranau": {
+    "latitude": -5.3954331,
+    "longitude": 105.2620377
+  },
+  "Lesung": {
+    "latitude": -8.2801208,
+    "longitude": 115.1061935
+  },
+  "Lubukraya": {
+    "latitude": 1.4782573,
+    "longitude": 99.2090428
+  },
+  "Adeng": {
+    "latitude": -8.3184,
+    "longitude": 115.1399
+  },
+  "Sibualbuali": {
+    "latitude": 1.5566005,
+    "longitude": 99.2548282
+  },
+  "Manglayang": {
+    "latitude": -6.885476,
+    "longitude": 107.7427473
+  },
+  "Seulawah Agam": {
+    "latitude": 5.447457,
+    "longitude": 95.6551489
+  },
+  "Ambang": {
+    "latitude": 0.755617,
+    "longitude": 124.4130796
+  },
+  "Sidole": {
+    "latitude": -0.8990968,
+    "longitude": 119.8838119
+  },
+  "Karangetang": {
+    "latitude": 2.7775257,
+    "longitude": 125.4060634
+  },
+  "Soputan": {
+    "latitude": 1.121651,
+    "longitude": 124.741586
+  },
+  "Karang": {
+    "latitude": -6.2731994,
+    "longitude": 106.0468065
+  },
+  "Kerenceng": {
+    "latitude": -6.9340605,
+    "longitude": 107.8819011
+  },
+  "Kelud": {
+    "latitude": -7.9389217,
+    "longitude": 112.3052492
+  },
+  "Kamojang": {
+    "latitude": -7.1247016,
+    "longitude": 107.7995707
+  },
+  "Tidore": {
+    "latitude": 0.5753212,
+    "longitude": 127.3977684
+  },
+  "Andong": {
+    "latitude": -8.2069,
+    "longitude": 113.9574
+  },
+  "Sekincau Belirang": {
+    "latitude": -5.1063885,
+    "longitude": 104.3148079
+  },
+  "Batur": {
+    "latitude": -8.2394154,
+    "longitude": 115.3779603
+  },
+  "Gamalama": {
+    "latitude": 0.8098795,
+    "longitude": 127.3323425
+  },
+  "Egon": {
+    "latitude": -8.6780954,
+    "longitude": 122.4541256
+  },
+  "Lewotobi Perempuan": {
+    "latitude": -8.5507408,
+    "longitude": 122.779929
+  },
+  "Perbakti": {
+    "latitude": -6.7430442,
+    "longitude": 106.6975485
+  },
+  "Tampomas": {
+    "latitude": -7.525,
+    "longitude": 109.596111
+  },
+  "Poco Leok": {
+    "latitude": -8.6694787,
+    "longitude": 120.4590573
+  },
+  "Manimporok": {
+    "latitude": 1.0988278,
+    "longitude": 124.7639114
+  },
+  "Iliboleng": {
+    "latitude": -8.3433203,
+    "longitude": 123.2518711
+  },
+  "Penanggungan": {
+    "latitude": -7.6156599,
+    "longitude": 112.6200569
+  },
+  "Lamongan": {
+    "latitude": -7.2563746,
+    "longitude": 112.2227543
+  },
+  "Kelimutu": {
+    "latitude": -8.7651702,
+    "longitude": 121.8133427
+  },
+  "Gamkonora": {
+    "latitude": 1.3790723,
+    "longitude": 127.5322812
+  },
+  "Muria": {
+    "latitude": -6.6162687,
+    "longitude": 110.8902495
+  },
+  "Magaringsai": {
+    "latitude": -2.8225437,
+    "longitude": 115.562447
+  },
+  "Saeng": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Lewotobi Laki-laki": {
+    "latitude": -8.5378713,
+    "longitude": 122.7674367
+  },
+  "Lokon": {
+    "latitude": 1.3641984,
+    "longitude": 124.7992274
+  },
+  "Lokon-Empung": {
+    "latitude": 1.355088,
+    "longitude": 124.7956274
+  },
+  "Inielika": {
+    "latitude": -8.7190623,
+    "longitude": 120.97416662313273
+  },
+  "Sempu": {
+    "latitude": 1.1337266,
+    "longitude": 124.7535103
+  },
+  "Kiaraberes-Gagak": {
+    "latitude": -6.7293192,
+    "longitude": 106.6504902
+  },
+  "Imun": {
+    "latitude": 2.1585145,
+    "longitude": 98.9300428
+  },
+  "Sukaria": {
+    "latitude": -8.7917452,
+    "longitude": 121.7698711
+  },
+  "Kahung": {
+    "latitude": -3.6829905,
+    "longitude": 114.9996565
+  },
+  "Ili Lewotolok": {
+    "latitude": -8.2727646,
+    "longitude": 123.5067385
+  },
+  "Lewotolo": {
+    "latitude": -8.2727646,
+    "longitude": 123.5067385
+  },
+  "Punikan": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Merbuk": {
+    "latitude": -8.626795,
+    "longitude": 115.1852607
+  },
+  "Kie Besi": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Bulu Saraung": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Pulosari": {
+    "latitude": -7.318056,
+    "longitude": 109.572222
+  },
+  "Dukono": {
+    "latitude": 1.698949,
+    "longitude": 127.8791239
+  },
+  "Hauk": {
+    "latitude": -2.4944165,
+    "longitude": 115.6775026
+  },
+  "Ibu": {
+    "latitude": 1.4907438,
+    "longitude": 127.6305401
+  },
+  "Mahawu": {
+    "latitude": 1.3531645,
+    "longitude": 124.8628914
+  },
+  "Awu": {
+    "latitude": 3.6881446,
+    "longitude": 125.4468545
+  },
+  "Sanggabuana": {
+    "latitude": -6.5908265,
+    "longitude": 107.2207665
+  },
+  "Rorokoan": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Rajabasa": {
+    "latitude": -5.7815291,
+    "longitude": 105.6273999
+  },
+  "Baluran": {
+    "latitude": -7.8456729,
+    "longitude": 114.3629116
+  },
+  "Tampusu": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Tondano": {
+    "latitude": 1.2955906,
+    "longitude": 124.9058945
+  },
+  "Aseupan": {
+    "latitude": -6.551389,
+    "longitude": 107.224722
+  },
+  "Karaha": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Tilu": {
+    "latitude": -7.533333,
+    "longitude": 107.933333
+  },
+  "Tongkoko": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Jailolo": {
+    "latitude": 1.0794305,
+    "longitude": 127.4384966
+  },
+  "Leroboleng": {
+    "latitude": -8.3513763,
+    "longitude": 122.8502397
+  },
+  "Bulu Monrolo": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Helatoba-Tarutung": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Ilimuda": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Hulubelu": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Tobaru": {
+    "latitude": 1.6341691,
+    "longitude": 127.6707162
+  },
+  "Amasing": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Ililabalekan": {
+    "latitude": -8.5445254,
+    "longitude": 123.3842986
+  },
+  "Iliwerung": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Suoh": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Todoko-Ranu": {
+    "latitude": 1.2240852,
+    "longitude": 127.4564388
+  },
+  "Bongkok": {
+    "latitude": -8.8485,
+    "longitude": 116.3104
+  },
+  "Moti": {
+    "latitude": 0.4585828,
+    "longitude": 127.4080681
+  },
+  "Wai Sano": {
+    "latitude": -8.7395548,
+    "longitude": 120.0176826
+  },
+  "Bibinoi": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Paluweh": {
+    "latitude": -8.3338621,
+    "longitude": 121.7103708
+  },
+  "Wurlali": {
+    "latitude": -7.1218701,
+    "longitude": 128.6735194
+  },
+  "Sirung": {
+    "latitude": -8.499553,
+    "longitude": 124.1279785
+  },
+  "Krakatau": {
+    "latitude": -6.211031,
+    "longitude": 106.733339
+  },
+  "Nila": {
+    "latitude": -6.7408892,
+    "longitude": 129.5136471
+  },
+  "Ndete Napu": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Batu Tara": {
+    "latitude": -7.7906463,
+    "longitude": 123.5865811
+  },
+  "Ruang": {
+    "latitude": 2.304852,
+    "longitude": 125.3665476
+  },
+  "Malang": {
+    "latitude": -7.3289378,
+    "longitude": 107.7158511
+  },
+  "Teon": {
+    "latitude": -6.9700205,
+    "longitude": 129.1450352
+  },
+  "Serua": {
+    "latitude": -6.3123344,
+    "longitude": 130.0170294
+  },
+  "Banda Api": {
+    "latitude": -4.5225918,
+    "longitude": 129.8798487
+  },
+  "Iya": {
+    "latitude": -8.8945945,
+    "longitude": 121.6366073
+  },
+  "Hiri": {
+    "latitude": 0.8979228,
+    "longitude": 127.3184691
+  },
+  "Weh": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Lurus": {
+    "latitude": -7.7392,
+    "longitude": 113.5804
+  },
+  "Colo": {
+    "latitude": -0.1776,
+    "longitude": 121.6105
+  },
+  "Tigalalu": {
+    "latitude": 0.0679595,
+    "longitude": 127.4232917
+  },
+  "Eusing": {
+    "latitude": -6.5068644,
+    "longitude": 106.6226431
+  },
+  "Tarakan": {
+    "latitude": 1.8301688,
+    "longitude": 127.8277639
+  },
+  "Mare": {
+    "latitude": 0.5753212,
+    "longitude": 127.3977684
+  },
+  "Gunungapi Wetar": {
+    "latitude": null,
+    "longitude": null,
+    "state": null,
+    "county": null
+  },
+  "Manuk": {
+    "latitude": 4.3333618,
+    "longitude": 126.8333343
+  },
+  "Riang Kotang": {
+    "latitude": -8.2829489,
+    "longitude": 122.9116974
+  },
+  "Anak Krakatau": {
+    "latitude": -6.1003102,
+    "longitude": 105.4267597
+  }
+}
