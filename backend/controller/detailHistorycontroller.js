@@ -1,6 +1,8 @@
 // controllers/detailHistoryController.js
 import { RegistrasiPendakian } from "../model/registrasimodel.js";
 import { Pembayaran } from "../model/pembayaran.js";
+import { Gunung } from "../model/gunungmodel.js";
+import { Basecamp } from "../model/basecampmodel.js";
 
 
 export const getHistoryDetail = async (req, res) => {
@@ -9,7 +11,7 @@ export const getHistoryDetail = async (req, res) => {
     try {
         const history = await RegistrasiPendakian.findByPk(id, {
             include: [
-                { model: Pembayaran },
+                { model: Pembayaran }, {model: Gunung, attributes: ['name']}, {model: Basecamp, attributes: ['name']}
                 // Tambahkan model lain jika perlu (Basecamp, Gunung, dll)
             ]
         });
