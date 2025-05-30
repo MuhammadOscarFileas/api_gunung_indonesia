@@ -9,7 +9,7 @@ const router = express.Router();
 router.post("/create", createRegistrasi);
 
 // Ambil history registrasi user (bisa pakai user ID dari auth middleware)
-router.get("/history", getHistory);
+router.get("/history/:userId", getHistory);
 
 // Detail history registrasi berdasarkan ID registrasi
 router.get("/history/:id", getHistoryDetail);
