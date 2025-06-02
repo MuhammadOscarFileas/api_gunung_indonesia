@@ -8,14 +8,29 @@ export const createRegistrasi = async (req, res) => {
     const { user_id, basecamp_id, total_orang, anggota, metode_pembayaran } = req.body;
 
     try {
+        // Hasilkan string barcode unik
+        const uniqueBarcode = uuidv4(); // Menghasilkan UUID unik
+
+        // Anda dapat memilih salah satu API QR code di bawah ini:
+        // Pilihan 1: GoQR.me
+        // const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${uniqueBarcode}`;
+
+        // Pilihan 2: QuickChart.io
+        // Lebih fleksibel dan direkomendasikan jika Anda butuh kustomisasi lebih lanjut
+        const qrCodeUrl = `https://quickchart.io/qr?text=${uniqueBarcode}&size=150`;
+
+
         // Buat registrasi baru
         const registrasi = await RegistrasiPendakian.create({
             user_id,
             basecamp_id,
             total_orang,
+            harga_idr: 0, // Anda perlu menghitung ini berdasarkan logika bisnis Anda (misalnya, harga per orang * total_orang)
+            harga_mata_uang: null, // Ini akan diisi jika ada konversi mata uang
+            mata_uang: null, // Ini akan diisi jika ada konversi mata uang
             status: 'pending',
-            status_pembayaran: metode_pembayaran === 'Bayar Langsung' ? 'pending' : 'pending',  // Bisa disesuaikan jika mau beda status
-            // Bisa juga simpan metode_pembayaran di tabel registrasi jika perlu
+            status_pembayaran: metode_pembayaran === 'Bayar Langsung' ? 'pending' : 'pending',
+            barcode: qrCodeUrl // Simpan URL QR code di database
         });
 
         // Simpan anggota pendakian
@@ -28,7 +43,7 @@ export const createRegistrasi = async (req, res) => {
             });
         }
 
-        // Buat entry pembayaran untuk track pembayaran user
+        // Buat entry pembayaran untuk melacak pembayaran user
         await Pembayaran.create({
             registrasi_id: registrasi.id,
             metode_pembayaran,
@@ -36,9 +51,15 @@ export const createRegistrasi = async (req, res) => {
             status_pembayaran: metode_pembayaran === 'Bayar Langsung' ? 'pending' : 'belum bayar'
         });
 
-        res.status(201).json({ registrasi, message: "Registrasi berhasil dibuat!" });
+        res.status(201).json({
+            registrasi: {
+                ...registrasi.toJSON(), // Konversi instance Sequelize ke objek JSON
+                qr_code_url: qrCodeUrl // Tambahkan URL QR code ke respons
+            },
+            message: "Registrasi berhasil dibuat!"
+        });
     } catch (err) {
         console.error('Error creating registrasi:', err);
-        res.status(500).json({ message: 'Server error' });
+        res.status(500).json({ message: 'Server error', error: err.message });
     }
 };
