@@ -9,7 +9,7 @@ export const getAllRegistrasi = async (req, res) => {
       include: [
         {
           model: AnggotaPendakian,
-          as: "anggota"
+          as: "anggota_pendakians"
         },
         {
           model: Pembayaran,
