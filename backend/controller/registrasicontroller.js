@@ -3,6 +3,31 @@ import { RegistrasiPendakian } from "../model/registrasimodel.js";
 import { AnggotaPendakian } from "../model/anggota_pendakian.js";
 import { Pembayaran } from "../model/pembayaran.js";
 
+export const getAllRegistrasi = async (req, res) => {
+  try {
+    const registrasiList = await RegistrasiPendakian.findAll({
+      include: [
+        {
+          model: AnggotaPendakian,
+          as: "anggota"
+        },
+        {
+          model: Pembayaran,
+          as: "pembayaran"
+        }
+      ]
+    });
+
+    res.status(200).json({
+      message: "Daftar registrasi berhasil diambil",
+      data: registrasiList
+    });
+  } catch (err) {
+    console.error('Error fetching registrasi:', err);
+    res.status(500).json({ message: 'Server error', error: err.message });
+  }
+};
+
 
 export const createRegistrasi = async (req, res) => {
     const { user_id, basecamp_id, total_orang, anggota, metode_pembayaran } = req.body;
