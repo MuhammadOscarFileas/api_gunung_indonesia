@@ -120,7 +120,7 @@ export const getNearestGunung = async (req, res) => {
         withDistance.sort((a, b) => a.distance - b.distance);
 
         // Ambil 3 terdekat
-        const nearestThree = withDistance.slice(0, 3);
+        const nearestThree = withDistance.slice(0, 6);
 
         res.json(nearestThree);
     } catch (err) {
