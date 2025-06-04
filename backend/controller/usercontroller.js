@@ -47,9 +47,9 @@ export const loginUser = async (req, res) => {
         }
 
         // Buat token JWT (jika kamu pakai JWT)
-        const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET, { expiresIn: '1h' });
+        //const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET, { expiresIn: '1h' });
 
-        res.json({ token });
+        //res.json({ token });
     } catch (err) {
         console.error('Error logging in user:', err);
         res.status(500).json({ message: 'Server error' });
