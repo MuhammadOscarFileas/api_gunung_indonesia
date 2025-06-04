@@ -110,3 +110,21 @@ export const getAllUsers = async (req, res) => {
         res.status(500).json({ message: 'Server error' });
     }
 };
+
+export const deleteUser = async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const user = await User.findByPk(id);
+
+    if (!user) {
+      return res.status(404).json({ message: "User tidak ditemukan" });
+    }
+
+    await user.destroy();
+    res.json({ message: "User berhasil dihapus" });
+  } catch (err) {
+    console.error('Error deleting user:', err);
+    res.status(500).json({ message: 'Server error' });
+  }
+};
