@@ -16,11 +16,11 @@ export const registerUser = async (req, res) => {
             return res.status(400).json({ message: "Username atau email sudah digunakan" });
         }
 
-        const hashedPassword = await bcrypt.hash(password, 10);
+        //const hashedPassword = await bcrypt.hash(password, 10);
         const user = await User.create({
             username,
             email,
-            password_hash: hashedPassword,
+            password_hash: password,
             full_name
         });
 
