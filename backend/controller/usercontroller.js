@@ -41,18 +41,21 @@ export const loginUser = async (req, res) => {
             return res.status(400).json({ message: "Email atau password salah" });
         }
 
-        const isPasswordValid = await bcrypt.compare(password, user.password_hash);
-        if (!isPasswordValid) {
+        // Cek password langsung (karena tidak di-hash)
+        if (password !== user.password_hash) {
             return res.status(400).json({ message: "Email atau password salah" });
         }
 
+        // Buat token JWT (jika kamu pakai JWT)
         const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET, { expiresIn: '1h' });
+
         res.json({ token });
     } catch (err) {
         console.error('Error logging in user:', err);
         res.status(500).json({ message: 'Server error' });
     }
 };
+
 
 // Update user profile
 export const updateUserProfile = async (req, res) => {
