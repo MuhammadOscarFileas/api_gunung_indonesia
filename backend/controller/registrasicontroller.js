@@ -3,6 +3,8 @@ import { RegistrasiPendakian } from "../model/registrasimodel.js";
 import { AnggotaPendakian } from "../model/anggota_pendakian.js";
 import { Pembayaran } from "../model/pembayaran.js";
 import { v4 as uuidv4 } from 'uuid';
+import admin from '../config/firebase.js'; // path disesuaikan
+
 
 export const getAllRegistrasi = async (req, res) => {
   try {
@@ -92,27 +94,36 @@ export const createRegistrasi = async (req, res) => {
 
 export const updateStatusRegistrasi = async (req, res) => {
   const { id } = req.params;
-  const { status, status_pembayaran } = req.body;
+  const { status, status_pembayaran, fcm_token } = req.body;
 
   try {
-    // Cari registrasi berdasarkan ID
     const registrasi = await RegistrasiPendakian.findByPk(id);
     if (!registrasi) {
       return res.status(404).json({ message: "Registrasi tidak ditemukan" });
     }
 
-    // Update status dan/atau status_pembayaran
-    if (status) registrasi.status = status;
-    if (status_pembayaran) registrasi.status_pembayaran = status_pembayaran;
-
+    // Update status
+    registrasi.status = status;
+    registrasi.status_pembayaran = status_pembayaran || registrasi.status_pembayaran;
     await registrasi.save();
+
+    // Kirim notifikasi ke user (kalau ada token)
+    if (fcm_token) {
+      await admin.messaging().send({
+        token: fcm_token,
+        notification: {
+          title: "Status Registrasi Diperbarui",
+          body: `Status kamu sekarang: ${status}`
+        }
+      });
+    }
 
     res.status(200).json({
       message: "Status registrasi berhasil diperbarui",
       data: registrasi
     });
   } catch (err) {
-    console.error("Error updating registrasi status:", err);
+    console.error("Error update registrasi:", err);
     res.status(500).json({ message: "Server error", error: err.message });
   }
 };
