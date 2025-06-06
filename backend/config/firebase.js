@@ -2,6 +2,7 @@ import admin from 'firebase-admin';
 
 const base64 = process.env.FIREBASE_CONFIG_BASE64;
 
+
 if (!base64) {
   throw new Error('Missing FIREBASE_CONFIG_BASE64 environment variable');
 }

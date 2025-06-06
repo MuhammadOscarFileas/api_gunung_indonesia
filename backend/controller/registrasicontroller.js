@@ -3,7 +3,7 @@ import { RegistrasiPendakian } from "../model/registrasimodel.js";
 import { AnggotaPendakian } from "../model/anggota_pendakian.js";
 import { Pembayaran } from "../model/pembayaran.js";
 import { v4 as uuidv4 } from 'uuid';
-import admin from '../config/firebase.js'; // path disesuaikan
+import admin from '../config/firebase.js'; 
 
 
 export const getAllRegistrasi = async (req, res) => {
@@ -102,20 +102,39 @@ export const updateStatusRegistrasi = async (req, res) => {
       return res.status(404).json({ message: "Registrasi tidak ditemukan" });
     }
 
-    // Update status
+    // Update status di database
     registrasi.status = status;
     registrasi.status_pembayaran = status_pembayaran || registrasi.status_pembayaran;
     await registrasi.save();
 
-    // Kirim notifikasi ke user (kalau ada token)
+    // Kirim push notifikasi jika token tersedia
     if (fcm_token) {
-      await admin.messaging().send({
+      const message = {
         token: fcm_token,
         notification: {
           title: "Status Registrasi Diperbarui",
           body: `Status kamu sekarang: ${status}`
+        },
+        android: {
+          priority: "high"
+        },
+        apns: {
+          payload: {
+            aps: {
+              sound: "default"
+            }
+          }
         }
-      });
+      };
+
+      try {
+        const response = await admin.messaging().send(message);
+        console.log("Notifikasi berhasil dikirim:", response);
+      } catch (notifErr) {
+        console.error("Gagal mengirim notifikasi:", notifErr);
+      }
+    } else {
+      console.warn("FCM token tidak tersedia, notifikasi tidak dikirim.");
     }
 
     res.status(200).json({
@@ -123,7 +142,7 @@ export const updateStatusRegistrasi = async (req, res) => {
       data: registrasi
     });
   } catch (err) {
-    console.error("Error update registrasi:", err);
+    console.error("Error saat update registrasi:", err);
     res.status(500).json({ message: "Server error", error: err.message });
   }
 };
