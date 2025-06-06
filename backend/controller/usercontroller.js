@@ -1,34 +1,35 @@
-// controllers/userController.js
 import { User } from "../model/usermodel.js";
-//import bcrypt from "bcrypt";
-//import jwt from "jsonwebtoken";
+import bcrypt from "bcrypt";
+// import jwt from "jsonwebtoken"; // jika nanti pakai token
 import { Op } from "sequelize";
 
 // Registrasi user baru
 export const registerUser = async (req, res) => {
-    const { username, email, password, full_name } = req.body;
+  const { username, email, password, full_name } = req.body;
 
-    try {
-        const existingUser = await User.findOne({
-            where: { [Op.or]: [{ username }, { email }] }
-        });
-        if (existingUser) {
-            return res.status(400).json({ message: "Username atau email sudah digunakan" });
-        }
+  try {
+    const existingUser = await User.findOne({
+      where: { [Op.or]: [{ username }, { email }] }
+    });
 
-        //const hashedPassword = await bcrypt.hash(password, 10);
-        const user = await User.create({
-            username,
-            email,
-            password_hash: password,
-            full_name
-        });
-
-        res.status(201).json({ message: "User berhasil dibuat!" });
-    } catch (err) {
-        console.error('Error registering user:', err);
-        res.status(500).json({ message: 'Server error' });
+    if (existingUser) {
+      return res.status(400).json({ message: "Username atau email sudah digunakan" });
     }
+
+    const hashedPassword = await bcrypt.hash(password, 10);
+
+    const user = await User.create({
+      username,
+      email,
+      password_hash: hashedPassword,
+      full_name
+    });
+
+    res.status(201).json({ message: "User berhasil dibuat!" });
+  } catch (err) {
+    console.error('Error registering user:', err);
+    res.status(500).json({ message: 'Server error' });
+  }
 };
 
 // Login user
@@ -36,12 +37,11 @@ export const loginUser = async (req, res) => {
   const { email, password } = req.body;
 
   try {
-    // Cari user berdasarkan email atau username
     const user = await User.findOne({
       where: {
         [Op.or]: [
           { email: email },
-          { username: email } // pakai field email sebagai input umum
+          { username: email }
         ]
       }
     });
@@ -50,8 +50,9 @@ export const loginUser = async (req, res) => {
       return res.status(400).json({ message: "Email/Username atau password salah" });
     }
 
-    // Cek password (plaintext atau bcrypt)
-    if (password !== user.password_hash) {
+    const isMatch = await bcrypt.compare(password, user.password_hash);
+
+    if (!isMatch) {
       return res.status(400).json({ message: "Email/Username atau password salah" });
     }
 
@@ -70,9 +71,6 @@ export const loginUser = async (req, res) => {
   }
 };
 
-
-
-
 // Update user profile
 export const updateUserProfile = async (req, res) => {
   const { user_id, full_name, profile_picture, password } = req.body;
@@ -87,8 +85,8 @@ export const updateUserProfile = async (req, res) => {
     if (profile_picture) user.profile_picture = profile_picture;
 
     if (password && password.trim() !== '') {
-      //const hashedPassword = await bcrypt.hash(password, 10);
-      user.password = password;
+      const hashedPassword = await bcrypt.hash(password, 10);
+      user.password_hash = hashedPassword;
     }
 
     await user.save();
@@ -100,15 +98,15 @@ export const updateUserProfile = async (req, res) => {
 };
 
 export const getAllUsers = async (req, res) => {
-    try {
-        const users = await User.findAll({
-            attributes: { exclude: ['password_hash'] } // sembunyikan password
-        });
-        res.json(users);
-    } catch (err) {
-        console.error('Error fetching users:', err);
-        res.status(500).json({ message: 'Server error' });
-    }
+  try {
+    const users = await User.findAll({
+      attributes: { exclude: ['password_hash'] }
+    });
+    res.json(users);
+  } catch (err) {
+    console.error('Error fetching users:', err);
+    res.status(500).json({ message: 'Server error' });
+  }
 };
 
 export const deleteUser = async (req, res) => {
