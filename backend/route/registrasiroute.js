@@ -1,5 +1,5 @@
 import express from "express";
-import { createRegistrasi, getAllRegistrasi } from "../controller/registrasicontroller.js";
+import { createRegistrasi, getAllRegistrasi, updateStatusRegistrasi} from "../controller/registrasicontroller.js";
 import { getHistory } from "../controller/historyController.js";
 import { getHistoryDetail } from "../controller/detailHistorycontroller.js";
 
@@ -9,6 +9,8 @@ const router = express.Router();
 router.post("/create", createRegistrasi);
 
 router.get("/", getAllRegistrasi);
+
+router.patch("/registrasi/:id/status", updateStatusRegistrasi);
 
 // Ambil history registrasi user (bisa pakai user ID dari auth middleware)
 router.get("/history/:userId", getHistory);
