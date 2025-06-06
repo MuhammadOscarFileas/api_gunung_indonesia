@@ -43,7 +43,7 @@ steps:
         "us-central1",
         "--allow-unauthenticated",
         "--set-env-vars",
-        "FIREBASE_CONFIG=$_FIREBASE_CONFIG"
+        "FIREBASE_CONFIG_BASE64=$_FIREBASE_CONFIG_BASE64"
       ]
 
 # Log hanya akan disimpan di Google Cloud Logging
