@@ -1,7 +1,7 @@
 import { RegistrasiPendakian, Basecamp, Gunung } from "../model/index.js";
 
 export const getHistory = async (req, res) => {
-  const userId = req.query.user_id; // ambil dari query parameter
+  const userId = req.params.userId; // ambil dari query parameter
 
   if (!userId) {
     return res.status(400).json({ message: "user_id wajib dikirim di query parameter" });
