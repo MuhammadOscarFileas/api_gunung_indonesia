@@ -2,6 +2,8 @@
 import { RegistrasiPendakian } from "../model/registrasimodel.js";
 import { AnggotaPendakian } from "../model/anggota_pendakian.js";
 import { Pembayaran } from "../model/pembayaran.js";
+import { v4 as uuidv4 } from 'uuid';  // Add this line at the top of your file
+
 
 export const getAllRegistrasi = async (req, res) => {
   try {
