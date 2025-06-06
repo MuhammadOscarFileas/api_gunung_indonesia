@@ -7,6 +7,8 @@ export const getHistory = async (req, res) => {
     return res.status(400).json({ message: "user_id wajib dikirim di query parameter" });
   }
 
+  console.log("User ID:", userId);
+
   try {
     const history = await RegistrasiPendakian.findAll({
       where: { user_id: userId },
@@ -24,6 +26,10 @@ export const getHistory = async (req, res) => {
       ],
       order: [["registrasi_date", "DESC"]]
     });
+
+    if (!history || history.length === 0) {
+      return res.status(404).json({ message: "History tidak ditemukan untuk user ini" });
+    }
 
     res.json(history);
   } catch (err) {
