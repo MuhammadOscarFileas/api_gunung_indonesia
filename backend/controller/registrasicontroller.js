@@ -31,7 +31,7 @@ export const getAllRegistrasi = async (req, res) => {
 
 
 export const createRegistrasi = async (req, res) => {
-    const { user_id, basecamp_id, total_orang, harga_total, matauang, harga_matauang, anggota, metode_pembayaran } = req.body;
+    const { user_id, basecamp_id, total_orang, harga_idr, mata_uang, harga_mata_uang, anggota, metode_pembayaran } = req.body;
 
     try {
         // Hasilkan string barcode unik
@@ -51,9 +51,9 @@ export const createRegistrasi = async (req, res) => {
             user_id,
             basecamp_id,
             total_orang,
-            harga_idr: harga_total, // Anda perlu menghitung ini berdasarkan logika bisnis Anda (misalnya, harga per orang * total_orang)
-            harga_mata_uang: harga_matauang, // Ini akan diisi jika ada konversi mata uang
-            mata_uang: matauang, // Ini akan diisi jika ada konversi mata uang
+            harga_idr, // Anda perlu menghitung ini berdasarkan logika bisnis Anda (misalnya, harga per orang * total_orang)
+            harga_mata_uang, // Ini akan diisi jika ada konversi mata uang
+            mata_uang, // Ini akan diisi jika ada konversi mata uang
             status: 'pending',
             status_pembayaran: metode_pembayaran === 'Bayar Langsung' ? 'pending' : 'pending',
             barcode: qrCodeUrl // Simpan URL QR code di database
