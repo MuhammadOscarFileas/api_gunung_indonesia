@@ -42,6 +42,8 @@ steps:
         "--region",
         "us-central1",
         "--allow-unauthenticated",
+        "--set-env-vars",
+        "FIREBASE_CONFIG=$_FIREBASE_CONFIG"
       ]
 
 # Log hanya akan disimpan di Google Cloud Logging
