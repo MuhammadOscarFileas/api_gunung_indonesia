@@ -1,6 +1,8 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
+console.log(process.env);
+
 console.log('FIREBASE_CONFIG:', process.env._FIREBASE_CONFIG);
 
 const firebaseConfig = JSON.parse(process.env._FIREBASE_CONFIG);

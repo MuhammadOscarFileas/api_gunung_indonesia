@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import './config/firebase.js';
 
 import userRoutes from "./route/userroute.js";
 import gunungRoutes from "./route/gunungroute.js";
