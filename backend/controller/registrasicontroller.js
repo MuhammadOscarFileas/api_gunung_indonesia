@@ -2,8 +2,7 @@
 import { RegistrasiPendakian } from "../model/registrasimodel.js";
 import { AnggotaPendakian } from "../model/anggota_pendakian.js";
 import { Pembayaran } from "../model/pembayaran.js";
-import { v4 as uuidv4 } from 'uuid';  // Add this line at the top of your file
-
+import { v4 as uuidv4 } from 'uuid';
 
 export const getAllRegistrasi = async (req, res) => {
   try {
@@ -32,7 +31,7 @@ export const getAllRegistrasi = async (req, res) => {
 
 
 export const createRegistrasi = async (req, res) => {
-    const { user_id, basecamp_id, total_orang, anggota, metode_pembayaran } = req.body;
+    const { user_id, basecamp_id, total_orang, harga_total, matauang, harga_matauang, anggota, metode_pembayaran } = req.body;
 
     try {
         // Hasilkan string barcode unik
@@ -52,9 +51,9 @@ export const createRegistrasi = async (req, res) => {
             user_id,
             basecamp_id,
             total_orang,
-            harga_idr: 0, // Anda perlu menghitung ini berdasarkan logika bisnis Anda (misalnya, harga per orang * total_orang)
-            harga_mata_uang: null, // Ini akan diisi jika ada konversi mata uang
-            mata_uang: null, // Ini akan diisi jika ada konversi mata uang
+            harga_idr: harga_total, // Anda perlu menghitung ini berdasarkan logika bisnis Anda (misalnya, harga per orang * total_orang)
+            harga_mata_uang: harga_matauang, // Ini akan diisi jika ada konversi mata uang
+            mata_uang: matauang, // Ini akan diisi jika ada konversi mata uang
             status: 'pending',
             status_pembayaran: metode_pembayaran === 'Bayar Langsung' ? 'pending' : 'pending',
             barcode: qrCodeUrl // Simpan URL QR code di database
